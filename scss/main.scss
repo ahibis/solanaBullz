@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Nunito:wght@400;600&display=swap');
+@function vw($n) {
+    @return $n * 100vw / 1440;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 1.6667vw;
+}
+.flex{
+    display: flex;
+}
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+.around{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    display: flex;
+    justify-content: left;
+}
+.right{
+    display: flex;
+    justify-content: right;
+}
+.acenter{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,87 @@
+$template_width:1440;
+@function vw($n) {
+    @return $n * 100vw / $template_width;
+}
+.block1{
+    background-image: url("../img/fone1.jpg");
+    background-size: cover;
+    height: 62.5vw;
+}
+.container{
+    margin: 0px auto;
+    width: vw(1128);
+}
+nav{
+    padding-top: vw(20);
+    .nav-link{
+        text-decoration: none;
+        color: white;
+    }
+    .icon{
+        width: vw(40);
+    }
+    .name{
+        margin-left: vw(12);
+    }
+    .contact img{
+        width: vw(40);
+    }
+    .hrefs{
+        height: vw(40);
+        width: vw(592);
+        font:{
+            weight: 500;
+            size: vw(20);
+        }
+    }
+    .ic1{
+        margin-right: vw(20);
+    }
+}
+@keyframes opacity{
+    0% {
+        filter: opacity(0);
+    }
+    50% {
+        filter: opacity(1);
+    }
+    100% {
+        filter: opacity(0);
+    }
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+@mixin anim{
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    animation-delay: 0.4s;
+}
+.circle{
+    width:vw(724);
+    animation-name: rotate, opacity;
+    @include anim;
+}
+.sneakPic{
+    width: vw(358);
+    border-radius: vw(24);
+    animation-name: opacity;
+    margin: {
+        top:vw(167);
+        left:vw(167);
+    };
+    @include anim;
+}
+
+
+
