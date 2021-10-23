@@ -1,0 +1,45 @@
+.block2 {
+  background-image: url("../img/fone2.jpg");
+  background-size: cover;
+  height: 72.9861111111vw;
+}
+.block2 .coming {
+  padding-top: 6.25vw;
+}
+.block2 .coming img {
+  width: 20.8333333333vw;
+}
+.block2 .timer {
+  margin-top: 2.5vw;
+  width: 33.75vw;
+  text-align: center;
+}
+.block2 .timer .box {
+  border-radius: 2.7777777778vw;
+  background-color: #413B54;
+  width: 9.1666666667vw;
+  height: 9.1666666667vw;
+  padding-top: 1.7361111111vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: middle;
+  font-family: Nunito;
+  font-weight: 600;
+  font-size: 4.5833333333vw;
+}
+.block2 .timer .desc {
+  margin-top: 0.6944444444vw;
+  font-size: 1.6666666667vw;
+  line-height: 2.0833333333vw;
+}
+.block2 .text {
+  text-align: center;
+  font-size: 1.9444444444vw;
+  font-weight: 600;
+}
+.block2 .text1 {
+  margin-top: 5.5555555556vw;
+}
+.block2 .text2 {
+  margin-top: 2.5vw;
+}

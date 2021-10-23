@@ -22,6 +22,7 @@ nav{
     }
     .name{
         margin-left: vw(12);
+        font-size: vw(24);
     }
     .contact img{
         width: vw(40);
@@ -82,6 +83,40 @@ nav{
     };
     @include anim;
 }
-
+.about{
+    margin-top: vw(200);
+    color: white;
+    .bl1{
+        width: vw(491);
+        font:{
+            weight: 600;
+            size: vw(66);
+        }
+        line-height: vw(72);
+    }
+    .bl2{
+        width: vw(470);
+        margin-top: vw(24);
+        font-size: vw(28);
+        line-height: vw(32);
+    }
+    .bl3{
+        margin-top: vw(44);
+        .dis{
+            width: vw(264);
+            content: url("../img/discord.png");
+            &:hover{
+                content: url("../img/discordH.png");
+            }
+        }
+        .tw{
+            width: vw(64);
+            content: url("../img/twiter.png");
+            &:hover{
+                content: url("../img/twiterH.png");
+            }
+        }
+    }
+}
 
 

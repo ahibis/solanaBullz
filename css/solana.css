@@ -21,6 +21,7 @@ nav .icon {
 }
 nav .name {
   margin-left: 0.8333333333vw;
+  font-size: 1.6666666667vw;
 }
 nav .contact img {
   width: 2.7777777778vw;
@@ -123,4 +124,38 @@ nav .ic1 {
   position: absolute;
   -webkit-animation-delay: 0.4s;
           animation-delay: 0.4s;
+}
+
+.about {
+  margin-top: 13.8888888889vw;
+  color: white;
+}
+.about .bl1 {
+  width: 34.0972222222vw;
+  font-weight: 600;
+  font-size: 4.5833333333vw;
+  line-height: 5vw;
+}
+.about .bl2 {
+  width: 32.6388888889vw;
+  margin-top: 1.6666666667vw;
+  font-size: 1.9444444444vw;
+  line-height: 2.2222222222vw;
+}
+.about .bl3 {
+  margin-top: 3.0555555556vw;
+}
+.about .bl3 .dis {
+  width: 18.3333333333vw;
+  content: url("../img/discord.png");
+}
+.about .bl3 .dis:hover {
+  content: url("../img/discordH.png");
+}
+.about .bl3 .tw {
+  width: 4.4444444444vw;
+  content: url("../img/twiter.png");
+}
+.about .bl3 .tw:hover {
+  content: url("../img/twiterH.png");
 }

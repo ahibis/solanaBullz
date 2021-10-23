@@ -8,6 +8,8 @@ body {
   font-family: Montserrat;
   font-weight: normal;
   font-size: 1.6667vw;
+  overflow-x: hidden;
+  color: white;
 }
 
 .flex {
@@ -51,6 +53,15 @@ body {
           justify-content: right;
 }
 
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .acenter {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -58,4 +69,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }

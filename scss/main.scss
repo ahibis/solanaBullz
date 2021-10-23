@@ -10,6 +10,8 @@ body{
     font-family: Montserrat;
     font-weight: normal;
     font-size: 1.6667vw;
+    overflow-x:hidden;
+    color:white;
 }
 .flex{
     display: flex;
@@ -30,7 +32,15 @@ body{
     display: flex;
     justify-content: right;
 }
+.center{
+    display: flex;
+    justify-content: center;
+}
 .acenter{
     display: flex;
     align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
 }

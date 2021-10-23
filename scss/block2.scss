@@ -1,0 +1,55 @@
+$template_width:1440;
+@function vw($n) {
+  @return $n * 100vw / $template_width;
+}
+.block2{
+  background-image: url("../img/fone2.jpg");
+  background-size: cover;
+  height: vw(1051);
+  .coming{
+    padding-top: vw(90);
+    img{
+      width: vw(300);
+    }
+  }
+  .timer{
+    margin-top: vw(36);
+    width: vw(486);
+    text-align: center;
+    .box{
+      border-radius: vw(40);
+      background-color:#413B54;
+      width: vw(132);
+      height: vw(132);
+      padding-top: vw(25);
+      box-sizing: border-box;
+      vertical-align: middle;
+      font:{
+        family: Nunito;
+        weight: 600;
+        size: vw(66);
+      }
+    }
+    .desc{
+      margin-top: vw(10);
+      font:{
+        size:vw(24);
+      }
+      line-height: vw(30);
+    }
+  }
+  .text{
+    text-align: center;
+    font:{
+      size: vw(28);
+      weight: 600;
+    }
+  }
+  .text1{
+    margin-top: vw(80);
+  }
+  .text2{
+    margin-top: vw(36);
+  }
+}
+
