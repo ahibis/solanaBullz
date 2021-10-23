@@ -16,7 +16,7 @@ setInterval(e=>{
     vue.pic+=1;
     if(vue.pic==14) vue.pic=1;
 },5000)
-const time=new Date("10-31-2021").getTime();
+const time=new Date("11-13-2021 8:00").getTime();
 setInterval(e=>{
     let date=new Date(time - new Date().getTime());
     vue.d=date.getUTCDate();

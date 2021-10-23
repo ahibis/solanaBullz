@@ -1,0 +1,9 @@
+$template_width:1440;
+@function vw($n) {
+  @return $n * 100vw / $template_width;
+}
+.block3 {
+  background-image: url("../img/fone3.jpg");
+  background-size: cover;
+  height: vw(990);
+}
