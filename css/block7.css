@@ -2,6 +2,8 @@
   background-image: url("../img/fone7.jpg");
   background-size: cover;
   height: 64.5833333333vw;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 .block7 .text {
   text-align: center;
