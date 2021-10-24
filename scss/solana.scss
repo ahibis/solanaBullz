@@ -87,7 +87,7 @@ nav{
     margin-top: vw(200);
     color: white;
     .bl1{
-        width: vw(491);
+        width: vw(520);
         font:{
             weight: 600;
             size: vw(66);
@@ -112,6 +112,7 @@ nav{
         .tw{
             width: vw(64);
             content: url("../img/twiter.png");
+            margin-left:vw(24);
             &:hover{
                 content: url("../img/twiterH.png");
             }
