@@ -51,6 +51,5 @@ a{
     }
 }
 img {
-    pointer-events: none; /*элемент не может стать объектом мыши*/
-    user-select: none; /*запрет на перенос текста*/
+    user-drag: none;
 }
