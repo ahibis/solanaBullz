@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="056a9240-126c-4042-9773-084b224eb45d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/block2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/block2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/block2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/block2.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635038448140</updated>
       <workItem from="1635038449424" duration="2019000" />
-      <workItem from="1635064451209" duration="11907000" />
+      <workItem from="1635064451209" duration="13497000" />
     </task>
     <task id="LOCAL-00001" summary="block3">
       <created>1635039543413</created>
@@ -120,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635078562125</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add href to discord2">
+      <created>1635078610338</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1635078610338</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,12 +158,13 @@
     <MESSAGE value="remote img" />
     <MESSAGE value="add transition to block7" />
     <MESSAGE value="add href to discord" />
-    <option name="LAST_COMMIT_MESSAGE" value="add href to discord" />
+    <MESSAGE value="add href to discord2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add href to discord2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1635078564127">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1635078611975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1635078564127" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1635078611975" />
   </component>
 </project>

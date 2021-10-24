@@ -4,6 +4,7 @@ const vue=new Vue({
         pic:1,
         d:0,
         h:0,
+        m:0,
         s:0,
         y:0,
         cards:13,
@@ -58,12 +59,13 @@ setInterval(e=>{
     vue.pic+=1;
     if(vue.pic==14) vue.pic=1;
 },5000)
-const time=new Date("11-13-2021 8:00").getTime();
+const time=new Date("11-13-2021 23:00").getTime();
 setInterval(e=>{
     let date=new Date(time - new Date().getTime());
     vue.d=date.getUTCDate();
     vue.h=date.getUTCHours()
-    vue.s=date.getUTCMinutes();
+    vue.m=date.getUTCMinutes();
+    vue.s=date.getUTCSeconds();
 },1000)
 
 setInterval(e=>{

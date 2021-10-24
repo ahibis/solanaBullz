@@ -78,8 +78,12 @@
                             <div class="desc">Hours</div>
                         </div>
                         <div>
-                            <div class="box">{{s}}</div>
+                            <div class="box">{{m}}</div>
                             <div class="desc">Minutes</div>
+                        </div>
+                        <div>
+                            <div class="box">{{s}}</div>
+                            <div class="desc">Seconds</div>
                         </div>
                     </div>
                 </div>
@@ -201,28 +205,28 @@
                     <div class="card">
                         <div>
                             <div class="quest">What’s the minting cost?</div>
-                            <div class="ans" v-if="faq==1"></div>
+                            <div class="ans" v-if="faq==1">The minting cost is 1 SOL</div>
                         </div>
                         <div @click="open(1)"><img src="./img/down.png" alt=""></div>
                     </div>
                     <div class="card">
                         <div>
                             <div class="quest">When is the launch date? </div>
-                            <div class="ans" v-if="faq==2"></div>
+                            <div class="ans" v-if="faq==2">The mint will happen on 11pm 11.13.2021</div>
                         </div>
                         <div @click="open(2)"><img src="./img/down.png" alt=""></div>
                     </div>
                     <div class="card">
                         <div>
                             <div class="quest">Can I get more than 1 Solana Bullz?</div>
-                            <div class="ans" v-if="faq==3"></div>
+                            <div class="ans" v-if="faq==3">If you are fast enough...you can try</div>
                         </div>
                         <div @click="open(3)"><img src="./img/down.png" alt=""></div>
                     </div>
                     <div class="card">
                         <div>
                             <div class="quest">Which wallet will be avalable?</div>
-                            <div class="ans" v-if="faq==4"></div>
+                            <div class="ans" v-if="faq==4">You will be able to mint Solana Bullz with Phantom<br> (recommended), Sollet, and Solflare.</div>
                         </div>
                         <div @click="open(4)"><img src="./img/down.png" alt=""></div>
                     </div>
