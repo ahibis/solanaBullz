@@ -20,15 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="056a9240-126c-4042-9773-084b224eb45d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/block5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/block5.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/block6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/block7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/block6.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/block7.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/block3.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/block3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/block3.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/block3.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635038448140</updated>
       <workItem from="1635038449424" duration="2019000" />
-      <workItem from="1635064451209" duration="6446000" />
+      <workItem from="1635064451209" duration="10168000" />
     </task>
     <task id="LOCAL-00001" summary="block3">
       <created>1635039543413</created>
@@ -93,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635066739184</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding block5">
+      <created>1635073098480</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635073098480</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,12 +120,13 @@
     <MESSAGE value="block3" />
     <MESSAGE value="compress imgs and fix urls" />
     <MESSAGE value="adding block4" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding block4" />
+    <MESSAGE value="adding block5" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding block5" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1635066752334">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1635073101190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1635066752334" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1635073101190" />
   </component>
 </project>

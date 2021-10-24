@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/block3.css">
     <link rel="stylesheet" href="css/block4.css">
     <link rel="stylesheet" href="css/block5.css">
+    <link rel="stylesheet" href="css/block6.css">
+    <link rel="stylesheet" href="css/block7.css">
     <title>Solana Bullz</title>
 </head>
 <body>
@@ -28,8 +30,8 @@
                             <a href="#about" class="nav-link">About</a>
                             <a href="#showcase" class="nav-link">Showcase</a>
                             <a href="#roadMap" class="nav-link">Roadmap</a>
-                            <a href="" class="nav-link">Team</a>
-                            <a href="" class="nav-link">Faq</a>
+                            <a href="#ourteam" class="nav-link">Team</a>
+                            <a href="#FAQ" class="nav-link">Faq</a>
                         </div>
                         <div class="contact">
                             <a href="https://discord.gg/7M6AXesjVg" target="_blank" ><img src="./img/discordIc.png" alt="" class="ic1"></a>
@@ -131,11 +133,14 @@
                 <div class="title showcase">Showcase</div>
             </div>
             <div class="carousel between">
-                <img src="./img/left.png" alt="" class="btn" @click="prev()">
+                <div @click="prev"><img src="./img/left.png" alt="" class="btn" ></div>
                 <div class="between imgs">
                     <img v-for="i in pics" :src="`./img/${i}.jpg`">
                 </div>
-                <img src="./img/right.png" alt="" class="btn" @click="next">
+                <div @click="next">
+                    <img src="./img/right.png" alt="" class="btn" >
+                </div>
+
             </div>
         </div>
         <div class="block4">
@@ -153,36 +158,89 @@
             <div class="box box6">Creation of a new collection, which refers to the animal<br>
                 of the next year (tiger),wil be drawn in 3D</div>
         </div>
-    </div>
-    <div class="block5">
-        <div class="container">
-            <div class="title" id="ourteam">Our team</div>
-            <div class="between cards1">
-                <div class="card"><img src="./img/av1.jpg" alt="">
-                    <div class="text1">Co-Founder</div>
-                    <div class="text2">OkdoK</div>
+        <div class="block5">
+            <div class="container">
+                <div class="title" id="ourteam">Our team</div>
+                <div class="between cards1">
+                    <div class="card"><img src="./img/av1.jpg" alt="">
+                        <div class="text1">Co-Founder</div>
+                        <div class="text2">OkdoK</div>
+                    </div>
+                    <div class="card"><img src="./img/av2.jpg" alt="">
+                        <div class="text1">Co-Founder</div>
+                        <div class="text2">YanisX</div>
+                    </div>
+                    <div class="card"><img src="./img/av3.jpg" alt="">
+                        <div class="text1">Marketing</div>
+                        <div class="text2">PucPuc</div>
+                    </div>
                 </div>
-                <div class="card"><img src="./img/av2.jpg" alt="">
-                    <div class="text1">Co-Founder</div>
-                    <div class="text2">YanisX</div>
-                </div>
-                <div class="card"><img src="./img/av3.jpg" alt="">
-                    <div class="text1">Marketing</div>
-                    <div class="text2">PucPuc</div>
-                </div>
-            </div>
-            <div class="left cards2">
-                <div class="card"><img src="./img/av4.jpg" alt="">
-                    <div class="text1">Artist</div>
-                    <div class="text2">Ronya</div>
-                </div>
-                <div class="card"><img src="./img/av5.jpg" alt="">
-                    <div class="text1">Developer</div>
-                    <div class="text2">ProgBuull</div>
+                <div class="left cards2">
+                    <div class="card"><img src="./img/av4.jpg" alt="">
+                        <div class="text1">Artist</div>
+                        <div class="text2">Ronya</div>
+                    </div>
+                    <div class="card"><img src="./img/av5.jpg" alt="">
+                        <div class="text1">Developer</div>
+                        <div class="text2">ProgBuull</div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="block6">
+            <div class="container">
+                <div id="FAQ" class="title">FAQ</div>
+                <div class="cards">
+                    <div class="card">
+                        <div>
+                            <div class="quest">What’s the total supply of the Solana Bullz</div>
+                            <div class="ans" v-if="faq==0">Only 7777</div>
+                        </div>
+                        <div @click="open(0)"><img src="./img/down.png" alt=""></div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <div class="quest">What’s the minting cost?</div>
+                            <div class="ans" v-if="faq==1"></div>
+                        </div>
+                        <div @click="open(1)"><img src="./img/down.png" alt=""></div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <div class="quest">When is the launch date? </div>
+                            <div class="ans" v-if="faq==2"></div>
+                        </div>
+                        <div @click="open(2)"><img src="./img/down.png" alt=""></div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <div class="quest">Can I get more than 1 Solana Bullz?</div>
+                            <div class="ans" v-if="faq==3"></div>
+                        </div>
+                        <div @click="open(3)"><img src="./img/down.png" alt=""></div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <div class="quest">Which wallet will be avalable?</div>
+                            <div class="ans" v-if="faq==4"></div>
+                        </div>
+                        <div @click="open(4)"><img src="./img/down.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block7" :style='{"background-image":`url(${back})`}'>
+            <div class="text" >
+                <span @mouseover="back2" @mouseleave="back1">
+                    Solana Bullz
+                </span>
+            </div>
+            <div class="container">
+                <div class="end">© 2021 Solana Bullz is Proudly Powered by Solana.</div>
+            </div>
+        </div>
     </div>
+
     <script src="js/vue.min.js"></script>
     <script src="js/main.js"></script>
 </body>

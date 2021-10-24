@@ -7,7 +7,9 @@ const vue=new Vue({
         s:0,
         y:0,
         cards:13,
-        pics:[1,2,3]
+        pics:[1,2,3],
+        faq:-1,
+        back:"./img/fone7.jpg"
     },
     computed:{
         picName(){
@@ -16,9 +18,6 @@ const vue=new Vue({
         scroll(){
             return this.y;
         }
-    },
-    watch:{
-
     },
     methods:{
         next(){
@@ -43,6 +42,15 @@ const vue=new Vue({
                 arr[i]=pic;
             }
             this.pics=arr;
+        },
+        open(i){
+            this.faq=this.faq===i?-1:i;
+        },
+        back1(){
+            this.back="./img/fone7.jpg";
+        },
+        back2(){
+            this.back="./img/fonen.jpg";
         }
     }
 })

@@ -1,0 +1,41 @@
+.block6 {
+  background-image: url("../img/fone6.jpg");
+  background-size: cover;
+  height: 64.5833333333vw;
+}
+.block6 #FAQ {
+  padding-top: 4.8611111111vw;
+}
+.block6 .cards {
+  margin-top: 3.6111111111vw;
+}
+.block6 .card {
+  margin-top: 2.0833333333vw;
+  background: #423B54;
+  border-radius: 1.8055555556vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2.3611111111vw 1.9444444444vw 2.3611111111vw 2.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.block6 .card:nth-child(1) {
+  margin-top: 0px;
+}
+.block6 .card .quest {
+  font-size: 1.9444444444vw;
+  font-weight: 600;
+  line-height: 2.2222222222vw;
+}
+.block6 .card .ans {
+  margin-top: 1.8055555556vw;
+  font-size: 1.9444444444vw;
+}
+.block6 .card img {
+  width: 3.0555555556vw;
+  height: 3.0555555556vw;
+}

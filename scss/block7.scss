@@ -1,0 +1,24 @@
+$template_width:1440;
+@function vw($n) {
+  @return $n * 100vw / $template_width;
+}
+.block7 {
+  background-image: url("../img/fone7.jpg");
+  background-size: cover;
+  height: vw(930);
+  .text{
+    text-align: center;
+    padding-top: vw(429);
+    font:{
+      weight: 600;
+      size:vw(66);
+    }
+  }
+  .end{
+    margin-top: vw(365);
+    font:{
+      weight: 600;
+      size:vw(28);
+    }
+  }
+}

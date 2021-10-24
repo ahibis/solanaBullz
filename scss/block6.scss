@@ -1,0 +1,42 @@
+$template_width:1440;
+@function vw($n) {
+  @return $n * 100vw / $template_width;
+}
+.block6 {
+  background-image: url("../img/fone6.jpg");
+  background-size: cover;
+  height: vw(930);
+  #FAQ{
+    padding-top: vw(70);
+  }
+  .cards{
+    margin-top: vw(52);
+  }
+  .card{
+    margin-top: vw(30);
+    background: #423B54;
+    border-radius: vw(26);
+    box-sizing: border-box;
+    padding: vw(34) vw(28)  vw(34) vw(36);
+    display: flex;
+    justify-content: space-between;
+    &:nth-child(1){
+      margin-top: 0px;
+    }
+    .quest{
+      font:{
+        size:vw(28);
+        weight: 600;
+      }
+      line-height: vw(32);
+    }
+    .ans{
+      margin-top: vw(26);
+      font-size: vw(28);
+    }
+    img{
+      width: vw(44);
+      height: vw(44);
+    }
+  }
+}
