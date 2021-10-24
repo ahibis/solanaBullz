@@ -6,4 +6,55 @@ $template_width:1440;
   background-image: url("../img/fone3.jpg");
   background-size: cover;
   height: vw(990);
+  .benefits{
+    position: absolute;
+    display: flex;
+    left:vw(128);
+  }
+  .benefit{
+    border-radius: vw(24);
+    background: #413B54;
+    width: vw(360);
+    height: vw(272);
+    margin-right: vw(24);
+    box-sizing: border-box;
+    padding: {
+      top:vw(56);
+      left:vw(32);
+      right: vw(36);
+    };
+    .name{
+      font:{
+        weight: 600;
+        size: vw(28);
+      }
+    }
+    .dis{
+      margin-top: vw(20);
+      font:{
+        size: vw(24);
+        weight: 400;
+      }
+    }
+  }
+  .showcase{
+    font:{
+      weight: 600;
+      size: vw(48);
+    }
+    padding-top: vw(372);
+  }
+  .carousel{
+    padding: vw(60) vw(44);
+    .btn{
+      width: vw(76);
+      height: vw(76);
+      margin-top: vw(172);
+    }
+    .imgs img{
+      width: vw(360);
+      height: vw(420);
+      border-radius: vw(24);
+    }
+  }
 }

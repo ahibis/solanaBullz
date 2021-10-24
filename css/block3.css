@@ -3,3 +3,49 @@
   background-size: cover;
   height: 68.75vw;
 }
+.block3 .benefits {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 8.8888888889vw;
+}
+.block3 .benefit {
+  border-radius: 1.6666666667vw;
+  background: #413B54;
+  width: 25vw;
+  height: 18.8888888889vw;
+  margin-right: 1.6666666667vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 3.8888888889vw;
+  padding-left: 2.2222222222vw;
+  padding-right: 2.5vw;
+}
+.block3 .benefit .name {
+  font-weight: 600;
+  font-size: 1.9444444444vw;
+}
+.block3 .benefit .dis {
+  margin-top: 1.3888888889vw;
+  font-size: 1.6666666667vw;
+  font-weight: 400;
+}
+.block3 .showcase {
+  font-weight: 600;
+  font-size: 3.3333333333vw;
+  padding-top: 25.8333333333vw;
+}
+.block3 .carousel {
+  padding: 4.1666666667vw 3.0555555556vw;
+}
+.block3 .carousel .btn {
+  width: 5.2777777778vw;
+  height: 5.2777777778vw;
+  margin-top: 11.9444444444vw;
+}
+.block3 .carousel .imgs img {
+  width: 25vw;
+  height: 29.1666666667vw;
+  border-radius: 1.6666666667vw;
+}
