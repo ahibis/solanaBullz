@@ -1,0 +1,44 @@
+$template_width:1440;
+@function vw($n) {
+  @return $n * 100vw / $template_width;
+}
+.block5 {
+  background-image: url("../img/fone5.jpg");
+  background-size: cover;
+  height: vw(1168);
+  #ourteam{
+    padding-top: vw(32);
+  }
+  .cards1{
+    margin-top: vw(60);
+  }
+  .cards2{
+    margin-top: vw(36);
+    .card:nth-child(2){
+      margin-left: vw(24);
+    }
+  }
+  .card{
+    background: #413B54;
+    border-radius: vw(24);
+    box-sizing: border-box;
+    padding: vw(20) vw(16);
+    line-height: 125%;
+    img{
+      width: vw(328);
+      height: vw(353);
+      border-radius: vw(26);
+    }
+    .text1{
+      font-size:vw(20);
+      margin-top: 16px;
+    }
+    .text2{
+      margin-top: 4px;
+      font:{
+        weight: 600;
+        size: vw(24)
+      };
+    }
+  }
+}

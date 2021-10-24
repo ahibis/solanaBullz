@@ -22,16 +22,27 @@ const vue=new Vue({
     },
     methods:{
         next(){
+            let cards=this.cards;
+            let arr=[0,0,0]
             for(let i=0;i<3;i+=1){
-                this.pics[i]+=1;
-                if(this.pics[i]===this.cards) this.pics[i]=1;
+                let pic = this.pics[i]
+                pic+=1;
+                if(pic===cards+1) pic=1;
+                arr[i]=pic;
             }
+            this.pics=arr;
         },
         prev(){
+            console.log("fdf")
+            let cards=this.cards;
+            let arr=[0,0,0]
             for(let i=0;i<3;i+=1){
-                this.pics[i]-=1;
-                if(this.pics[i]===-1) this.pics[i]=this.cards;
+                let pic = this.pics[i]
+                pic-=1;
+                if(pic===0) pic=cards;
+                arr[i]=pic;
             }
+            this.pics=arr;
         }
     }
 })
@@ -58,4 +69,4 @@ setInterval(e=>{
     let x=156-2076*k;
     //console.log(`${x} ${y} ${y1} ${y2}`)
     vue.y= x*width/1440;
-},10)
+},100)

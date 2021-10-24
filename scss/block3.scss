@@ -46,11 +46,15 @@ $template_width:1440;
       width: vw(76);
       height: vw(76);
       margin-top: vw(172);
+      cursor: pointer;
     }
-    .imgs img{
-      width: vw(360);
-      height: vw(420);
-      border-radius: vw(24);
+    .imgs{
+      width: vw(1120);
+      img{
+        width: vw(360);
+        height: vw(360);
+        border-radius: vw(24);
+      }
     }
   }
 }

@@ -41,9 +41,13 @@
   width: 5.2777777778vw;
   height: 5.2777777778vw;
   margin-top: 11.9444444444vw;
+  cursor: pointer;
+}
+.block3 .carousel .imgs {
+  width: 77.7777777778vw;
 }
 .block3 .carousel .imgs img {
   width: 25vw;
-  height: 29.1666666667vw;
+  height: 25vw;
   border-radius: 1.6666666667vw;
 }
