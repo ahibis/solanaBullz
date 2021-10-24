@@ -11,7 +11,7 @@ const vue=new Vue({
     },
     computed:{
         picName(){
-            return `./img/${this.pic}.png`
+            return `./img/${this.pic}.jpg`
         },
         scroll(){
             return this.y;
