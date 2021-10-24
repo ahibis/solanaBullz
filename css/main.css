@@ -75,3 +75,8 @@ a {
   text-decoration: none;
   color: white;
 }
+
+.title {
+  font-weight: 600;
+  font-size: 3.3333333333vw;
+}
