@@ -7,14 +7,14 @@ const vue=new Vue({
         m:0,
         s:0,
         y:0,
-        cards:13,
+        cards:15,
         pics:[1,2,3],
         faq:-1,
         back:"./img/fone7.jpg"
     },
     computed:{
         picName(){
-            return `./img/${this.pic}.jpg`
+            return `./img/${this.pic}.png`
         },
         scroll(){
             return this.y;
@@ -57,7 +57,7 @@ const vue=new Vue({
 })
 setInterval(e=>{
     vue.pic+=1;
-    if(vue.pic==14) vue.pic=1;
+    if(vue.pic===this.cards+1) vue.pic=1;
 },5000)
 const time=new Date("11-13-2021 23:00").getTime();
 setInterval(e=>{
