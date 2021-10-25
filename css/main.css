@@ -84,3 +84,13 @@ a {
 img {
   user-drag: none;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 4.4444444444vw;
+  }
+
+  .title {
+    font-size: 6.6666666667vw;
+  }
+}

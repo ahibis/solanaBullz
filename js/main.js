@@ -57,26 +57,38 @@ const vue=new Vue({
 })
 setInterval(e=>{
     vue.pic+=1;
-    if(vue.pic===this.cards+1) vue.pic=1;
+    if(vue.pic>=vue.cards+1) vue.pic=1;
 },5000)
 const time=new Date("11-13-2021 23:00").getTime();
 setInterval(e=>{
     let date=new Date(time - new Date().getTime());
-    vue.d=date.getUTCDate();
-    vue.h=date.getUTCHours()
-    vue.m=date.getUTCMinutes();
-    vue.s=date.getUTCSeconds();
+    let times=[date.getUTCDate()+'',date.getUTCHours()+'',date.getUTCMinutes()+'',date.getUTCSeconds()+'']
+    for(let i=0;i<4;i+=1){
+        if(times[i].length===1) times[i]='0'+times[i];
+    }
+    vue.d=times[0];
+    vue.h=times[1];
+    vue.m=times[2];
+    vue.s=times[3];
 },1000)
 
 setInterval(e=>{
+    let width = window.innerWidth;
     let y1=document.querySelector(".text1").offsetTop;
     let y2=document.querySelector(".benefits").offsetTop;
+    if(width<=400) {
+        y1=document.querySelector(".block2").offsetTop;
+        y2-=40;
+    }
     let y = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-    let width = window.innerWidth;
     let k=0;
-    if(y>y1 && y<y2) k=(y-y1)/(y2-y1);
+    if(y>y1 && y<=y2) k=(y-y1)/(y2-y1);
     if(y>y2) k=1;
+    if(window.innerWidth<=400){
+        let x=16-952*k;
+        vue.y= x*width/360;
+        return;
+    }
     let x=156-2076*k;
-    //console.log(`${x} ${y} ${y1} ${y2}`)
     vue.y= x*width/1440;
 },100)

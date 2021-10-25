@@ -2,6 +2,10 @@ $template_width:1440;
 @function vw($n) {
     @return $n * 100vw / $template_width;
 }
+$template_mobile_width:360;
+@function vwm($n) {
+    @return $n * 100vw / $template_mobile_width;
+}
 .block1{
     background-image: url("../img/fone1.jpg");
     background-size: cover;
@@ -119,5 +123,70 @@ nav{
         }
     }
 }
-
-
+@media only screen and  (max-width: 600px){
+    .block1{
+        background-image: url("../img/fone1m.jpg");
+        height: vwm(805);
+        nav{
+            padding-top: vwm(10);
+            .icon{width: vwm(32);}
+            .name{margin-left: vwm(10);}
+            .contact img{width: vwm(24);}
+            .hrefs{display: none;}
+            .ic1{margin-right: vwm(4);}
+        }
+        .name{font-size:vwm(16);}
+        .circle{width:vwm(320);}
+        .sneakPic{
+            width: vwm(160);
+            border-radius: vwm(11);
+            margin: {
+                top:vwm(80);
+                left:vwm(80);
+            };
+        }
+        .disp{display: block !important;}
+        .show{margin-top: vwm(57);}
+        .about{
+            margin-top: vwm(68);
+            color: white;
+            .bl1{
+                width: inherit;
+                font:{
+                    size: vwm(44);
+                }
+                line-height: vwm(44);
+            }
+            .bl2{
+                width: inherit;
+                margin-top: vwm(16);
+                font-size: vwm(18);
+                line-height: vwm(22);
+            }
+            .bl3{
+                margin-top: vwm(47);
+                justify-content: center;
+                display: flex;
+                .dis{
+                    width: vwm(112);
+                    content: url("../img/discordm.png");
+                }
+                .tw{
+                    width: vwm(36);
+                    content: url("../img/twiterm.png");
+                    margin-left:vwm(12);
+                }
+            }
+        }
+    }
+    .container{
+        margin: 0px auto;
+        width: vwm(328);
+    }
+}
+@import "block2";
+@import "block3";
+@import "block4";
+@import "block5";
+@import "block6";
+@import "block7";

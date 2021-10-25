@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Nunito:wght@400;600&display=swap');
+$template_width:1440;
 @function vw($n) {
-    @return $n * 100vw / 1440;
+    @return $n * 100vw / $template_width;
+}
+$template_mobile_width:360;
+@function vwm($n) {
+    @return $n * 100vw / $template_mobile_width;
 }
 *{
     margin: 0px;
@@ -52,4 +57,14 @@ a{
 }
 img {
     user-drag: none;
+}
+@media only screen and (max-width: 600px){
+    body{
+        font-size: vwm(16);
+    }
+    .title{
+        font:{
+            size: vwm(24);
+        }
+    }
 }
