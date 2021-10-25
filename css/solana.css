@@ -642,16 +642,10 @@ nav .ic1 {
 }
 .block6 .card .ans {
   top: 0;
-  position: relative;
   -webkit-transition: down 0.2s linear;
   transition: down 0.2s linear;
+  margin-top: 1.8055555556vw;
   font-size: 1.9444444444vw;
-  display: none;
-}
-.block6 .card .show {
-  -webkit-transform: translate(0, -1.9444444444vw);
-          transform: translate(0, -1.9444444444vw);
-  display: block;
 }
 .block6 .card img {
   width: 3.0555555556vw;

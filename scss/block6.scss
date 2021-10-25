@@ -35,17 +35,11 @@ $template_mobile_width:360;
       }
       line-height: vw(32);
     }
-
     .ans{
       top:0;
-      position: relative;
       transition: down .2s linear;
+      margin-top: vw(26);
       font-size: vw(28);
-      display: none;
-    }
-    .show{
-      transform: translate(0,vw(-28));
-      display: block;
     }
     img{
       width: vw(44);
