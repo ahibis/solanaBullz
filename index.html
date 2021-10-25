@@ -191,35 +191,35 @@
                     <div class="card">
                         <div>
                             <div class="quest">How many Solana Bulls are there in total?</div>
-                            <div class="ans"  :class="{show:faq==0}">There will be 7777 NFTs in total</div>
+                            <div class="ans" v-if="faq==0" >There will be 7777 NFTs in total</div>
                         </div>
                         <div @click="open(0)"><img src="./img/down.png" alt=""></div>
                     </div>
                     <div class="card">
                         <div>
                             <div class="quest">What’s the minting cost?</div>
-                            <div class="ans" v-show="faq==1">The minting cost is 1 SOL</div>
+                            <div class="ans" v-if="faq==1">The minting cost is 1 SOL</div>
                         </div>
                         <div @click="open(1)"><img src="./img/down.png" alt=""></div>
                     </div>
                     <div class="card">
                         <div>
                             <div class="quest">When is the launch date planned? </div>
-                            <div class="ans" v-show="faq==2">The launch date is scheduled for 2021.11.13 8 pm UTC</div>
+                            <div class="ans" v-if="faq==2">The launch date is scheduled for 2021.11.13 8 pm UTC</div>
                         </div>
                         <div @click="open(2)"><img src="./img/down.png" alt=""></div>
                     </div>
                     <div class="card">
                         <div>
                             <div class="quest">Will it be possible to get more than 1 Solana Bulls NFT?</div>
-                            <div class="ans" v-show="faq==3">You can try it!</div>
+                            <div class="ans" v-if="faq==3">You can try it!</div>
                         </div>
                         <div @click="open(3)"><img src="./img/down.png" alt=""></div>
                     </div>
                     <div class="card">
                         <div>
                             <div class="quest">Which wallet will be available?</div>
-                            <div class="ans" v-show="faq==4">You will be able to mint Solana Bulls with the help of Phantom, we recommend this particular wallet.</div>
+                            <div class="ans" v-if="faq==4">You will be able to mint Solana Bulls with the help of Phantom, we recommend this particular wallet.</div>
                         </div>
                         <div @click="open(4)"><img src="./img/down.png" alt=""></div>
                     </div>
