@@ -77,7 +77,7 @@ setInterval(e=>{
     let y1=document.querySelector(".text1").offsetTop;
     let y2=document.querySelector(".benefits").offsetTop;
     if(width<=400) {
-        y1=document.querySelector(".block2").offsetTop;
+        y1=document.querySelector(".coming").offsetTop;
         y2-=40;
     }
     let y = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
