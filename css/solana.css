@@ -107,6 +107,9 @@ nav .ic1 {
   -webkit-animation-delay: 0.4s;
           animation-delay: 0.4s;
 }
+.circle::-webkit-scrollbar {
+  display: none;
+}
 
 .sneakPic {
   width: 24.8611111111vw;
@@ -348,6 +351,9 @@ nav .ic1 {
   display: -ms-flexbox;
   display: flex;
   left: 8.8888888889vw;
+}
+.block3 .benefits::-webkit-scrollbar {
+  display: none;
 }
 .block3 .benefit {
   border-radius: 1.6666666667vw;

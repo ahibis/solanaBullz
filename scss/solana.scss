@@ -75,6 +75,9 @@ nav{
 .circle{
     width:vw(724);
     animation-name: rotate, opacity;
+    &::-webkit-scrollbar{
+        display: none;
+    }
     @include anim;
 }
 .sneakPic{
@@ -136,7 +139,9 @@ nav{
             .ic1{margin-right: vwm(4);}
         }
         .name{font-size:vwm(16);}
-        .circle{width:vwm(320);}
+        .circle{
+            width:vwm(320);
+        }
         .sneakPic{
             width: vwm(160);
             border-radius: vwm(11);
