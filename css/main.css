@@ -4,6 +4,10 @@
   padding: 0px;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: Montserrat;
   font-weight: normal;

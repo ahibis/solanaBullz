@@ -59,10 +59,11 @@ setInterval(e=>{
     vue.pic+=1;
     if(vue.pic>=vue.cards+1) vue.pic=1;
 },5000)
-const time=new Date("11-13-2021 23:00").getTime();
+const time=(new Date(2021,11,13,23)).getTime();
 setInterval(e=>{
-    let date=new Date(time - new Date().getTime());
+    let date=new Date(time - (new Date()).getTime());
     let times=[date.getUTCDate()+'',date.getUTCHours()+'',date.getUTCMinutes()+'',date.getUTCSeconds()+'']
+
     for(let i=0;i<4;i+=1){
         if(times[i].length===1) times[i]='0'+times[i];
     }
@@ -73,6 +74,10 @@ setInterval(e=>{
 },1000)
 
 setInterval(e=>{
+    if(window.innerWidth<=600){
+        vue.y=0;
+        return;
+    }
     let width = window.innerWidth;
     let y1=document.querySelector(".text1").offsetTop;
     let y2=document.querySelector(".benefits").offsetTop;
@@ -84,12 +89,13 @@ setInterval(e=>{
     let k=0;
     if(y>y1 && y<=y2) k=(y-y1)/(y2-y1);
     if(y>y2) k=1;
-    if(window.innerWidth<=400){
+    if(window.innerWidth<=600){
         let x=16-952*k;
         vue.y= x*width/360;
         return;
     }
 
     let x=156-2076*k;
+
     vue.y= x*width/1440;
 },100)

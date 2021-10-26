@@ -71,11 +71,16 @@ $template_mobile_width:360;
     background-size: cover;
     height: vwm(554);
     .benefits{
-      left:vwm(16);
+      margin-left: vwm(16);
+      width: vwm(328);
+      overflow-x: scroll;
+      overflow-y: hidden;
+      display: -webkit-box;
     }
     .benefit{
       border-radius: vwm(6);
-      width: vwm(156);
+      width: vwm(156)!important;
+      box-sizing: content-box;
       height: vwm(170);
       margin-right: vw(16);
       padding: {

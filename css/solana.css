@@ -401,11 +401,17 @@ nav .ic1 {
     height: 153.8888888889vw;
   }
   .block3 .benefits {
-    left: 4.4444444444vw;
+    margin-left: 4.4444444444vw;
+    width: 91.1111111111vw;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: -webkit-box;
   }
   .block3 .benefit {
     border-radius: 1.6666666667vw;
-    width: 43.3333333333vw;
+    width: 43.3333333333vw !important;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
     height: 47.2222222222vw;
     margin-right: 1.1111111111vw;
     padding-top: 4.4444444444vw;
