@@ -97,6 +97,7 @@ nav .ic1 {
   width: 50.2777777778vw;
   -webkit-animation-name: rotate, opacity;
           animation-name: rotate, opacity;
+  pointer-events: none;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;

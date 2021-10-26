@@ -21,7 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="056a9240-126c-4042-9773-084b224eb45d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/solana.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/solana.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/solana.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/solana.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,8 @@
       <workItem from="1635110832764" duration="691000" />
       <workItem from="1635191926686" duration="13242000" />
       <workItem from="1635207303156" duration="1023000" />
-      <workItem from="1635279476468" duration="5031000" />
+      <workItem from="1635279476468" duration="5243000" />
+      <workItem from="1635286089461" duration="288000" />
     </task>
     <task id="LOCAL-00001" summary="block3">
       <created>1635039543413</created>
@@ -309,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635283994741</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="fix link">
+      <created>1635284581760</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1635284581760</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +338,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding block4" />
     <MESSAGE value="adding block5" />
     <MESSAGE value="adding block6 and block7" />
     <MESSAGE value="remote img" />
@@ -353,17 +362,18 @@
     <MESSAGE value="fixes" />
     <MESSAGE value="fixe showcase" />
     <MESSAGE value="fix showcase" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix showcase" />
+    <MESSAGE value="fix link" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix link" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1635204086124">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1635204086124" />
-    <state x="249" y="120" key="Vcs.Push.Dialog.v2" timestamp="1635283997029">
+    <state x="249" y="120" key="Vcs.Push.Dialog.v2" timestamp="1635284584744">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="120" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1635283997029" />
+    <state x="249" y="120" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1635284584744" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1635199564414">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

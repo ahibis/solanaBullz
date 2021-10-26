@@ -75,6 +75,7 @@ nav{
 .circle{
     width:vw(724);
     animation-name: rotate, opacity;
+    pointer-events: none;
     @include anim;
 }
 .sneakPic{
