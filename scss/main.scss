@@ -11,8 +11,9 @@ $template_mobile_width:360;
     margin: 0px;
     padding: 0px;
 }
-html{
-    overflow-x:hidden;
+html,body{
+    overflow: hidden;
+    overflow-y: auto;
 }
 body{
     font-family: Montserrat;
