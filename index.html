@@ -6,8 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="img/solana.png">
-    <link rel="stylesheet" href="css/main.css?v=6">
-    <link rel="stylesheet" href="css/solana.css?v=6">
+    <link rel="stylesheet" href="css/main.css?v=7">
+    <link rel="stylesheet" href="css/solana.css?v=7">
     <title>Solana Bullz</title>
 </head>
 <body>
@@ -96,7 +96,7 @@
             <div class="benefits" :style="{left:scroll+'px'}">
                 <div class="benefit">
                     <div class="name">7777</div>
-                    <div class="dis">777 is the total supply on the Solana blockchain</div>
+                    <div class="dis">7777 is the total supply on the Solana blockchain</div>
                 </div>
                 <div class="benefit">
                     <div class="name">100+</div>
@@ -193,35 +193,35 @@
                             <div class="quest">How many Solana Bulls are there in total?</div>
                             <div class="ans" v-if="faq==0" >There will be 7777 NFTs in total</div>
                         </div>
-                        <div @click="open(0)"><img src="./img/down.png" alt=""></div>
+                        <div @click="open(0)"><img src="./img/down.png" alt="" :class="{open:faq==0}"></div>
                     </div>
                     <div class="card">
                         <div>
                             <div class="quest">What’s the minting cost?</div>
                             <div class="ans" v-if="faq==1">The minting cost is 1 SOL</div>
                         </div>
-                        <div @click="open(1)"><img src="./img/down.png" alt=""></div>
+                        <div @click="open(1)"><img src="./img/down.png" alt="" :class="{open:faq==1}"></div>
                     </div>
                     <div class="card">
                         <div>
                             <div class="quest">When is the launch date planned? </div>
                             <div class="ans" v-if="faq==2">The launch date is scheduled for 2021.11.13 8 pm UTC</div>
                         </div>
-                        <div @click="open(2)"><img src="./img/down.png" alt=""></div>
+                        <div @click="open(2)"><img src="./img/down.png" alt="" :class="{open:faq==2}"></div>
                     </div>
                     <div class="card">
                         <div>
                             <div class="quest">Will it be possible to get more than 1 Solana Bulls NFT?</div>
                             <div class="ans" v-if="faq==3">You can try it!</div>
                         </div>
-                        <div @click="open(3)"><img src="./img/down.png" alt=""></div>
+                        <div @click="open(3)"><img src="./img/down.png" alt="" :class="{open:faq==3}"></div>
                     </div>
                     <div class="card">
                         <div>
                             <div class="quest">Which wallet will be available?</div>
                             <div class="ans" v-if="faq==4">You will be able to mint Solana Bulls with the help of Phantom, we recommend this particular wallet.</div>
                         </div>
-                        <div @click="open(4)"><img src="./img/down.png" alt=""></div>
+                        <div @click="open(4)"><img src="./img/down.png" alt="" :class="{open:faq==4}"></div>
                     </div>
                 </div>
             </div>
@@ -239,7 +239,7 @@
     </div>
 
     <script src="js/vue.min.js"></script>
-    <script src="js/main-dist.js?v=1"></script>
+    <script src="js/main-dist.js?v=2"></script>
 </body>
 
 </html>

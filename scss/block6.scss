@@ -13,6 +13,9 @@ $template_mobile_width:360;
   #FAQ{
     padding-top: vw(40);
   }
+  .open{
+    content: url("../img/close.png");
+  }
   .cards{
     margin-top: vw(40);
   }

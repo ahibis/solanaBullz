@@ -107,9 +107,6 @@ nav .ic1 {
   -webkit-animation-delay: 0.4s;
           animation-delay: 0.4s;
 }
-.circle::-webkit-scrollbar {
-  display: none;
-}
 
 .sneakPic {
   width: 24.8611111111vw;
@@ -628,6 +625,9 @@ nav .ic1 {
 }
 .block6 #FAQ {
   padding-top: 2.7777777778vw;
+}
+.block6 .open {
+  content: url("../img/close.png");
 }
 .block6 .cards {
   margin-top: 2.7777777778vw;
