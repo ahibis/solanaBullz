@@ -9,6 +9,11 @@ html, body {
   overflow-y: auto;
 }
 
+body::-webkit-scrollbar {
+  -webkit-appearance: none;
+  display: none;
+}
+
 body {
   font-family: Montserrat;
   font-weight: normal;
