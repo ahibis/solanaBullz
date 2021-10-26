@@ -89,6 +89,7 @@ setInterval(e=>{
         vue.y= x*width/360;
         return;
     }
+
     let x=156-2076*k;
     vue.y= x*width/1440;
 },100)
