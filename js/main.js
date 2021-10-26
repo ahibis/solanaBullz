@@ -55,6 +55,12 @@ const vue=new Vue({
         }
     }
 })
+let imgs=[]
+for(let i=1;i<=vue.cards+1;i++){
+    let img=document.createElement("img");
+    img.src=`img/${i}.png`;
+    imgs.push(img)
+}
 setInterval(e=>{
     vue.pic+=1;
     if(vue.pic>=vue.cards+1) vue.pic=1;
