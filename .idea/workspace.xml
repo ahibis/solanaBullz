@@ -22,7 +22,7 @@
     <list default="true" id="056a9240-126c-4042-9773-084b224eb45d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/solana.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/solana.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/block6.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/block6.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/solana.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/solana.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <workItem from="1635038449424" duration="2019000" />
       <workItem from="1635064451209" duration="18806000" />
       <workItem from="1635110832764" duration="691000" />
-      <workItem from="1635191926686" duration="12455000" />
+      <workItem from="1635191926686" duration="12845000" />
     </task>
     <task id="LOCAL-00001" summary="block3">
       <created>1635039543413</created>
@@ -209,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635205967967</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fixes">
+      <created>1635206057385</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1635206057385</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,10 +261,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1635204086124" />
-    <state x="249" y="120" key="Vcs.Push.Dialog.v2" timestamp="1635205969678">
+    <state x="249" y="120" key="Vcs.Push.Dialog.v2" timestamp="1635206059787">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="120" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1635205969678" />
+    <state x="249" y="120" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1635206059787" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1635199564414">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

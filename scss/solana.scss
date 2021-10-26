@@ -152,15 +152,17 @@ nav{
             color: white;
             .bl1{
                 width: inherit;
+                text-align: center;
                 font:{
-                    size: vwm(44);
+                    size: vwm(42);
                 }
                 line-height: vwm(44);
             }
             .bl2{
                 width: inherit;
+                text-align: center;
                 margin-top: vwm(16);
-                font-size: vwm(18);
+                font-size: vwm(20.4);
                 line-height: vwm(22);
             }
             .bl3{
