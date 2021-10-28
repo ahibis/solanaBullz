@@ -47,8 +47,12 @@ nav{
     0% {
         filter: opacity(0);
     }
+
     50% {
         filter: opacity(1);
+    }
+    90% {
+        filter: opacity(0);
     }
     100% {
         filter: opacity(0);
@@ -70,7 +74,7 @@ nav{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     position: absolute;
-    animation-delay: 0.4s;
+    animation-delay: 0.35s;
 }
 .circle{
     width:vw(724);

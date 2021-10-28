@@ -45,6 +45,10 @@ nav .ic1 {
     -webkit-filter: opacity(1);
             filter: opacity(1);
   }
+  90% {
+    -webkit-filter: opacity(0);
+            filter: opacity(0);
+  }
   100% {
     -webkit-filter: opacity(0);
             filter: opacity(0);
@@ -59,6 +63,10 @@ nav .ic1 {
   50% {
     -webkit-filter: opacity(1);
             filter: opacity(1);
+  }
+  90% {
+    -webkit-filter: opacity(0);
+            filter: opacity(0);
   }
   100% {
     -webkit-filter: opacity(0);
@@ -105,8 +113,8 @@ nav .ic1 {
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
   position: absolute;
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  -webkit-animation-delay: 0.35s;
+          animation-delay: 0.35s;
 }
 
 .sneakPic {
@@ -123,8 +131,8 @@ nav .ic1 {
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
   position: absolute;
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  -webkit-animation-delay: 0.35s;
+          animation-delay: 0.35s;
 }
 
 .about {
