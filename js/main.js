@@ -65,9 +65,9 @@ setInterval(e=>{
     vue.pic+=1;
     if(vue.pic>=vue.cards+1) vue.pic=1;
 },5000)
-const time=(new Date(2021,11,13,23)).getTime();
+const time=(new Date(Date.UTC(2021,11,13,20))).getTime();
 setInterval(e=>{
-    let date=new Date(time - (new Date()).getTime());
+    let date=new Date(time - (new Date(new Date().toISOString())).getTime());
     let times=[date.getUTCDate()+'',date.getUTCHours()+'',date.getUTCMinutes()+'',date.getUTCSeconds()+'']
 
     for(let i=0;i<4;i+=1){
