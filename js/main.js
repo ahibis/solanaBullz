@@ -71,6 +71,7 @@ setInterval(e=>{
     let t=time - (new Date(new Date().toISOString()))
     let times=[date.getUTCDate()-1+'',date.getUTCHours()+'',date.getUTCMinutes()+'',date.getUTCSeconds()+'']
 
+
     for(let i=0;i<4;i+=1){
         if(times[i].length===1) times[i]='0'+times[i];
     }
@@ -78,6 +79,13 @@ setInterval(e=>{
         for(let i=0;i<4;i+=1){
             times[i]="00"
         }
+        let mint=document.querySelector("#toMint");
+        mint.src="./img/toMint.png";
+        mint.addEventListener("click",e=>{
+            location.href="https://public.solanabullz.space/"
+        })
+        document.querySelector("#timer").style.visibility = "hidden";
+
     }
     vue.d=times[0];
     vue.h=times[1];
