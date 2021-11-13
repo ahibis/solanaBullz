@@ -65,13 +65,19 @@ setInterval(e=>{
     vue.pic+=1;
     if(vue.pic>=vue.cards+1) vue.pic=1;
 },5000)
-const time=(new Date(Date.UTC(2021,11,13,20))).getTime();
+const time=(new Date(Date.UTC(2021,10,13,20))).getTime();
 setInterval(e=>{
     let date=new Date(time - (new Date(new Date().toISOString())).getTime());
-    let times=[date.getUTCDate()+'',date.getUTCHours()+'',date.getUTCMinutes()+'',date.getUTCSeconds()+'']
+    let t=time - (new Date(new Date().toISOString()))
+    let times=[date.getUTCDate()-1+'',date.getUTCHours()+'',date.getUTCMinutes()+'',date.getUTCSeconds()+'']
 
     for(let i=0;i<4;i+=1){
         if(times[i].length===1) times[i]='0'+times[i];
+    }
+    if(t<0){
+        for(let i=0;i<4;i+=1){
+            times[i]="00"
+        }
     }
     vue.d=times[0];
     vue.h=times[1];
