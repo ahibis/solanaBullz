@@ -81,6 +81,7 @@ setInterval(e=>{
         }
         let mint=document.querySelector("#toMint");
         mint.src="./img/toMint.png";
+        mint.style.cursor = "pointer"
         mint.addEventListener("click",e=>{
             location.href="https://public.solanabullz.space/"
         })
